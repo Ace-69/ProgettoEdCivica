@@ -65,13 +65,15 @@ p {
 }
 
 .custom-ol {
-    margin: auto;
+    margin: auto!important;
+    list-style-position: inside;
+    text-align: left;
 }
-/*
+
 img {
     min-width: 100px;
     min-height: 100px;
-    max-width: 500px;
-    max-height: 500px;
+
+    max-width: 100%;
+    max-height: 100%;
 }
-*/
