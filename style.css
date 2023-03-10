@@ -87,6 +87,19 @@ img {
     border-radius: 3rem;
 }
 
+.info-card {
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(5, 54, 81);
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.info-card>a {
+    color:#48f9b5;
+}
+
 .credits-card>figure>img {
     width: 50px;
     height: 50px;
