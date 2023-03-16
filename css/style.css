@@ -1,0 +1,155 @@
+.titolo {
+    color: blue;
+}
+
+.custom-body {
+    padding-top: 4rem;
+}
+
+.nav {
+    background-color: #F8F9Fa;
+}
+.nav>a {
+    margin-left: 3rem;
+}
+
+.custom-nav {
+    background-color: rgb(1, 101, 144);
+    color: white;
+    border-radius: .5rem;
+    margin: .2rem;
+    min-width: 150px;
+    text-align: center;
+}
+
+.custom-nav-current {
+    background-color: rgb(2, 123, 73);
+    color: white;
+    border-radius: .5rem;
+    margin: .2rem;
+    min-width: 150px;
+    text-align: center;
+}
+
+.custom-nav:hover {
+    background-color: rgb(1, 101, 144);
+    color: lightgray;
+    border-radius: .5rem;
+    margin: .2rem;
+    min-width: 150px;
+    text-align: center;
+}
+
+.custom-nav-current:hover {
+    background-color: rgb(2, 123, 73);
+    color: lightgray;
+    border-radius: .5rem;
+    margin: .2rem;
+    min-width: 150px;
+    text-align: center;
+}
+
+.custom-div {
+    background-color: #F8F9FA;
+    margin-top: 1rem;
+}
+
+p {
+    text-align: justify;
+    color: rgb(24, 22, 22);
+}
+
+.custom-text-r {
+    text-align: right;
+    margin:auto;
+    font-size: large;
+}
+
+.custom-text-l {
+    text-align: left;
+    margin:auto;
+    font-size: large;
+}
+
+.custom-ol {
+    margin: auto!important;
+    list-style-position: inside;
+    text-align: left;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.credits-card {
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    background-color: rgb(5, 54, 81);
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.info-card {
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(5, 54, 81);
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.info-card>a {
+    color:#48f9b5;
+}
+
+.credits-card>figure>img {
+    width: 50px;
+    height: 50px;
+}
+.credits-card>i,.credits-card>p {
+    text-align: center;
+}
+
+.fig-cap-color {
+    color: #c2c2c2;
+}
+
+i {
+    color: rgb(144, 144, 144);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-style {
+    color: #00b9b3;
+}
+
+.download-btn {
+    text-align: center;
+    margin: auto;
+}
+.dwonloda-card {
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    background-color:  rgb(5, 54, 81);;
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.dwonloda-card >p{ color:white;}
+
+.themeButton {
+    color: black;
+    background-color: lightseagreen;
+    border: 1px solid lightslategray;
+    border-radius: .5rem;
+    margin: .2rem;
+    min-width: 150px;
+    text-align: center;
+}

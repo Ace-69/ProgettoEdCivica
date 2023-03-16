@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>European green deal e NextGenerationEU</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" id="css" href="css/style.css">
     </head>
     <body class="custom-body">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary container fixed-top">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg container fixed-top">
+            <div class="container-fluid nav">
                 <a class="navbar-brand" href="index.html">Educazione Civica</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,11 +26,32 @@
                         <li class="nav-item">
                             <a class="nav-link custom-nav" href="Credits.html">Credits</a>
                         </li>
+                        <li class="nav-item">
+                            <button class="themeButton nav-link" onclick="theme()">Cambia tema</button>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+        <div class="container">
+                <div class="col-lg-5 info-card my-3">
+                    <p style="color: #F8F9FA;" class="text-center mt-3">Fonti:</p>
+                    <a target="_blank" href="https://www.consilium.europa.eu/it/policies/green-deal/">Green Deal</a><br>
+                    <a target="_blank" href="https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal_it">European Green Deal</a><br>
+                    <a target="_blank" href="https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_it">Recovery Plan Europe</a><br>
+                </div>
+                <div class="col-lg-5 dwonloda-card">
+                    <p class="text-center mt-4">Scarica il Powerpoint</p>
+                    <a target="_blank" href="content/Powerpoint.pptx" class="btn btn-success download-btn">Download 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                        </svg>
+                    </a>
+                </div>
+        </div>
+        <script src="js/theme.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
